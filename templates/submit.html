@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+   {% if prediction %}
+   <body>
+       <h1> Here are some products you may like</h1>
+   </body>
+   <ul>
+    {% for item in prediction %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>{{error}}</p>
+  {% endif %}
+</html>
