@@ -30,6 +30,9 @@ except Exception as e:
 class RecommendationModel:
 
 
+    """
+    This function uses item-item correlation matrix to predict the top_n recommended products for the user
+    """
     def top_n_recommendations(self,userName,top_n=5):
         try:
            
@@ -38,7 +41,13 @@ class RecommendationModel:
             logging.error("Invalid username",e)
             raise e
    
+   
 
+    """
+    This function takes list of items recommended as input to predict the top_n products with positive review.
+    It uses the sentiment prediction model to predict the sentiment of each review for an item.
+    Top_n items with higher number of positive reviews are returned.
+    """
     def top_n_positive_recommendations(self,recommendation_list,top_n=5):
             sentiment_review={}
             for item in recommendation_list:
