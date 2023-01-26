@@ -15,3 +15,5 @@ Recommendation Systems play a key role in the growth of an e-commerce company. E
 For running the project, please install the necessary packages mentioned in the requirements.txt using the below command
 
 'pip install -r requirements.txt'
+
+To run the flask app please run app.py file.
