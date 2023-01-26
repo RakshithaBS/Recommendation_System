@@ -50,6 +50,9 @@ class NaiveBayes:
         return best_model,metrics
 
 class LRClassification:
+    """
+    Class for logistic regression implementation
+    """
 
     def train_model_without_hp(self,X_train,y_train,X_test,y_test):
        metrics ={}
@@ -79,6 +82,9 @@ class LRClassification:
 
 class XGBoost:
 
+    """
+    Xgboost implementation with and without hyperparameter tuning
+    """
     def train_model_without_hp(self,X_train,y_train,X_test,y_test):
        metrics ={}
        logging.info("Training the model without hyperparameter tuning")
