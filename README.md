@@ -1,8 +1,10 @@
-# Recommendation_System
+# Sentiment-Based Recommendation System
 
 ## Introduction
 
-Recommendation Systems play a key role in the growth of an e-commerce company. E-Commerce giants like Amazon,flipkart have been using recommendation algorithms to improve their user experience. The project focuses on building a sentiment based recommendation system which will recommend upto 5 products for an existing user. The dataset used here is inspired from https://www.kaggle.com/datasets/datafiniti/grammar-and-online-product-reviews. It consists of a subset of the original dataset and has 30000 reviewes for 200+products. 
+The goal of this project is to build an end-to-end recommendation system for an e-commerce platform that will recommend products to users based on their purchase history and previous ratings and reviews. This system will automate the process of product evaluation and selection, making it easier and more efficient for users to find products they are likely to enjoy. The system will analyze previous ratings and reviews from other users to determine the most popular and highly rated products, and then recommend these products to new users based on their purchase history and other factors. The end result will be a more personalized and efficient shopping experience for the users of the e-commerce platform.
+
+The project focuses on building a sentiment-based recommendation system which will recommend upto 5 products for an existing user. The dataset used here is inspired from https://www.kaggle.com/datasets/datafiniti/grammar-and-online-product-reviews. It consists of a subset of the original dataset and has 30000 reviewes for 200+products. 
 
 ## Topics
 1. Data Preprocessing and EDA
