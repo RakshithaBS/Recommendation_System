@@ -35,5 +35,5 @@ To run the flask app please run app.py file.
 ### Improvements 
 
 * The dataset had a huge class imbalance. This can be handled by adding synthetic data for negative reviews.
-* In the data pre-processing notebooks only BOW and TF_IDF representation was experimented. Word embedding models can be explored , as it focuses on the understanding the similarity between words.
+* In the data pre-processing notebooks only BOW and TF_IDF representation was experimented. Word embedding models can be explored , as it focuses on understanding the similarity between words.
 * The project only recommends products for a user trained in the dataset. Better algorithms and approaches can be used to build a more realistic recommendation system. 
