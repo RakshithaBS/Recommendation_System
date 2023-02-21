@@ -5,9 +5,7 @@
 * Overview
 * Motivation
 * Technical Aspects
-* Demo
 * Project Setup
-* Directory Tree
 * Technologies Used
 * Future Scope 
 ## Overview
