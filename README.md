@@ -1,12 +1,22 @@
 # Sentiment-Based Recommendation System
 
-## Introduction
 
-The goal of this project is to build an end-to-end recommendation system for an e-commerce platform that will recommend products to users based on their purchase history and previous ratings and reviews. This system will automate the process of product evaluation and selection, making it easier and more efficient for users to find products they are likely to enjoy. The system will analyze previous ratings and reviews from other users to determine the most popular and highly rated products, and then recommend these products to new users based on their purchase history and other factors. The end result will be a more personalized and efficient shopping experience for the users of the e-commerce platform.
-
+## Table of Contents
+* Overview
+* Motivation
+* Technical Aspects
+* Demo
+* Project Setup
+* Directory Tree
+* Technologies Used
+* Future Scope 
+## Overview
 The project focuses on building a sentiment-based recommendation system which will recommend upto 5 products for an existing user. The dataset used here is inspired from https://www.kaggle.com/datasets/datafiniti/grammar-and-online-product-reviews. It consists of a subset of the original dataset and has 30000 reviewes for 200+products. 
 
-## Topics
+## Motivation
+The aim of this project is to build an end-to-end recommendation system for an e-commerce platform that will recommend products to users based on their purchase history and previous ratings and reviews. This system will automate the process of product evaluation and selection, making it easier and more efficient for users to find products they are likely to enjoy. The system will analyze previous ratings and reviews from other users to determine the most popular and highly rated products, and then recommend these products to new users based on their purchase history and other factors. The end result will be a more personalized and efficient shopping experience for the users of the e-commerce platform.
+
+## Technical Aspects
 1. Data Preprocessing and EDA
   - the data pre-processing and EDA is covered in notebooks/DataPreprocessing.ipynb
 2. Experimentation of different Ml models for sentiment analysis
@@ -21,7 +31,8 @@ The project focuses on building a sentiment-based recommendation system which wi
    Recommendation models are covered in notebooks/Recommendation_System.ipynb
 4. Model deployment using flask framework
 
-## Project setup
+
+## Project Setup
 
 ### Installing the packages
 
@@ -32,7 +43,7 @@ For running the project, please install the necessary packages mentioned in the 
 ### Run the main application
 To run the flask app please run app.py file.
 
-### Improvements 
+## Future Scope 
 
 * The dataset had a huge class imbalance. This can be handled by adding synthetic data for negative reviews.
 * In the data pre-processing notebooks only BOW and TF_IDF representation was experimented. Word embedding models can be explored , as it focuses on understanding the similarity between words.
